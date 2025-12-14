@@ -1,0 +1,186 @@
+body {
+    font-family:'Palatino';
+    padding: 70px;
+    background:url('background.avif'); 
+    background-size: cover;
+    color: rgb(157, 88, 117);
+    cursor: default;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    background-color:#FFD8D7;
+    padding: 10px 10px;
+    color:rgb(255, 255, 255);
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border: rgb(183, 159, 169);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    box-shadow: 0 5px 0px rgba(139, 59, 80, 0.7);
+    text-shadow: 1px 2px 2px rgba(129, 40, 64, 0.7)
+
+}
+
+nav a:hover{
+    transform: scale(1.08);
+}
+
+.hospitalReadmission {
+    display: flex;
+    align-items: center;    
+    gap: 1px;            
+    padding: 10px 20px 30px 20px;
+    justify-content: center;
+}
+
+#normalizedSchema {
+    display: block;     
+    border-radius: 20px;
+    width: 500px;
+    border: 5px white;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.3);
+    margin: 10px 20px 5px 20px;
+}
+
+#nationwide {
+    display: block;     
+    border-radius: 20px;
+    width: 800px;
+    border: 5px white;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.3);
+    margin: 20px 20px 40px 20px;
+}
+
+h1.aboutme{
+    font-size: 30px;
+    margin: 0
+}
+
+p.desc{
+    margin-top: 9px;
+}
+
+.bio{
+    margin: 50px 50px 40px 50px;
+    background-color:#ffffff;
+    border: rgb(152, 107, 126);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 30px 30px 30px 30px;
+
+}
+
+
+h1.subheading {
+    font-weight: bold;
+    text-align: left;
+}
+
+h3.subheading2{
+    font-weight: bold;
+    text-align: left;
+}
+
+.projectTitleDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSideProject{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+.leftSideProject a{
+    color: rgba(98, 15, 37, 0.7);
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 3px
+}
+
+.leftSideProject a:hover{
+    text-shadow: 2px 3px 5px rgb(255, 255, 255);
+    transform: scale(1.08)
+}
+
+.leftSideProject p{
+    font-size: 15px;
+}
+
+ol.projectList{
+    list-style-type: square; 
+    margin-top: 8px;
+}
+
+
+h3.contactTitle{
+    margin-top: 50px;
+    margin-bottom: 8px;
+
+}
+
+.project h3{
+    margin: 0
+}
+
+.project p{
+    margin: 0
+}
+
+.project{
+    background-color:#ffffff;
+    border: rgb(152, 107, 126);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 8px 20px 20px 20px
+}
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contactLine{
+    display: flex;
+}
+
+.contactLine span{
+    font-weight: bold;
+    font-family: Georgia;
+    margin-right: 8px;
+}
+
+.contactLine a {
+    color: rgb(157, 88, 117);
+}
+
+.contactLine a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px rgb(157, 88, 117);
+}
+
+#normalizedSchema {
+  display: block;
+  margin: 0 auto;
+}
+
+#nationwide {
+  display: block;
+  margin: 0 auto 20px auto;
+}
