@@ -42,7 +42,7 @@ h1.company{
 .jobTitleDate {
     display: flex;
     justify-content: space-between;
-    align-items: center;         
+    align-items: center;    
 }
 
 .leftSideJob {
@@ -58,6 +58,10 @@ p.jobtitle{
 p.desc{
     margin: 8px 0px 2px 0px
 
+}
+
+.joblist{
+    margin-top: 4px
 }
 
 .job:first-of-type {
