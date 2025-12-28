@@ -1,0 +1,186 @@
+body {
+    font-family:'Palatino';
+    padding: 70px;
+    background:url('background.avif'); 
+    background-size: cover;
+    color: rgb(157, 88, 117);
+    cursor: default;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    background-color:#FFD8D7;
+    padding: 10px 10px;
+    color:rgb(255, 255, 255);
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border: rgb(183, 159, 169);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    box-shadow: 0 5px 0px rgba(139, 59, 80, 0.7);
+    text-shadow: 1px 2px 2px rgba(129, 40, 64, 0.7)
+
+}
+
+nav a:hover{
+    transform: scale(1.08);
+}
+
+.design{
+    margin: 50px 50px 40px 50px;
+    background-color:#ffffff;
+    border: rgb(152, 107, 126);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 30px 30px 30px 30px;
+
+}
+
+#logo{
+    display: block;
+    margin: -30px auto 0 auto;
+    width: 450px;
+    height: auto;        
+
+}
+
+
+.two {
+    display: flex; 
+    justify-content: center;
+    gap: 5rem;
+    margin-left: 100px
+}
+
+.three{
+    margin: 40px 0px 0px 50px;
+
+
+}
+
+.four{
+    margin: 50px 0px 0px 50px;
+}
+
+.five{
+    margin: 0px 0px 0px 50px;
+}
+
+#color{
+    width: 450px;
+    height: auto;  
+
+}
+
+#mascot{
+    width: 380px;
+    height: auto; 
+}
+
+#products{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;  
+}
+
+#labels{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: auto;  
+}
+
+#box{
+    display: block;
+    margin: -30px auto 0 auto;
+    width: 600px;
+    height: auto;  
+}
+
+
+
+
+
+
+
+
+
+
+
+h3.contactTitle{
+    margin-top: 50px;
+    margin-bottom: 8px;
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contactLine{
+    display: flex;
+}
+
+.contactLine span{
+    font-weight: bold;
+    font-family: Georgia;
+    margin-right: 8px;
+}
+
+.contactLine a {
+    color: rgb(157, 88, 117);
+}
+
+.contactLine a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px rgb(157, 88, 117);
+}
+
+
+.design h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.one p{
+    margin: -20px 180px 70px 250px;
+    font-size: 20px;
+    text-align: center
+}
+
+.twoP{
+    margin: 50px 110px 60px 190px;
+    font-size: 20px;
+    text-align: center
+}
+
+.three p{
+    margin: 30px 150px 80px 150px;
+    font-size: 20px;
+    text-align: center
+}
+
+.four p{
+    margin: 30px 150px 50px 150px;
+    font-size: 20px;
+    text-align: center
+}
+
+.five p{
+    margin: -20px 150px 50px 150px;
+    font-size: 20px;
+    text-align: center
+}
